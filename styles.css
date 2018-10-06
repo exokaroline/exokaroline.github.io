@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito');
+
+.typewriter { 
+  text-align: center;
+  color:#FFFFFF;
+  padding-top:1.6cm;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+ }
+
+ .typewriter1 { 
+  text-align: center;
+  color:black;
+  padding-top:1.6cm;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+ }
+
+li{
+    font-size: 17px;
+    float:left;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    opacity: 1
+    color:#FFFFFF;
+    list-style: none;
+    margin: 10px;
+    margin-top: -5px;
+    margin-left: -15px;
+    text-decoration: none;
+}
+
+li a{
+    display:block;
+    text-align:center; 
+    padding: 30px;
+    text-decoration: none;
+    color:#FFFFFF;
+    list-style: none outside none;
+    text-decoration: none;
+}
+
+body{
+   color: black;
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Nunito', sans-serif;
+ }
+
+.icons { 
+  width: 20px;
+  height: auto;
+  padding: 25px;
+  color:;
+ }
+
+.iconsBox { 
+  padding-left: 200px;
+  position: relative;
+ }
+
+.background {
+  background-image: url("me.jpg");
+  background-repeat:no-repeat;
+  background-size:cover; 
+  width: auto;
+  height: 100vh;  
+  margin: -20px -10px 10px -10px;
+}
+
+
+/*About Me section */
+.aboutme { 
+  background-color: white;
+  padding-top: 10px;
+  height: 100vh;
+
+}
+
+.aboutmetext { 
+    width: 600px;
+    height: 270px;
+    color: black;
+    text-align: justify;
+    text-justify: inter-word;
+    display: block;
+    margin:0 auto;
+    
+ }
+
+h3 { 
+  margin: 5px;
+ }
+
+h5 { 
+  margin: 10px;
+  text-align: left;
+ }
+
+ .imageBox {
+  padding-bottom: 50px;
+ }
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding-bottom: 5px;
+}
+
+.column img {
+  vertical-align: middle;
+  height: 200px;
+  width: auto;
+  padding: 5px;
+}
+
+/*Experience section */
+
+
+.experience {
+  background-color: #e4fbff;
+  height: 725px;
+  margin: -10px -10px 0px -10px; 
+  padding-top: 10px;
+  padding-bottom: 10px; 
+ }
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 500px;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 500px;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid grey;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 500px;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 5px 5px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+}
+
+/*Projects section */
+
+.projects { 
+  background-color: #585858;
+  background-size:cover;
+  height: 100vh;
+  margin: -10px -10px 0px -10px; 
+  padding-top: 10px; 
+  color: white;
+}
+
